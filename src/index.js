@@ -162,7 +162,7 @@ class Scheduler extends Component {
                                         <thead>
                                         <tr style={{height: config.tableHeaderHeight}}>
                                             <th className="header3-text">
-                                                {resourceName}
+                                                Categories
                                             </th>
                                         </tr>
                                         </thead>
