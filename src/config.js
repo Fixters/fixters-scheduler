@@ -4,7 +4,7 @@ import SummaryPos from './SummaryPos'
 export default {
     schedulerWidth: 1000,
     schedulerMaxHeight: 0,
-    tableHeaderHeight: 40,
+    tableHeaderHeight: 50,
 
     agendaResourceTableWidth: 160,
     agendaMaxEventWidth: 100,
@@ -34,9 +34,9 @@ export default {
     dayStopTo: 23,
     defaultEventBgColor: '#80C5F6',
     selectedAreaColor: '#7EC2F3',
-    nonWorkingTimeHeadColor: '#999999',
-    nonWorkingTimeHeadBgColor: '#fff0f6',
-    nonWorkingTimeBodyBgColor: '#fff0f6',
+    nonWorkingTimeHeadColor: '#7B93A6',
+    nonWorkingTimeHeadBgColor: '#fff',
+    nonWorkingTimeBodyBgColor: '#F3F8F9',
     summaryColor: '#666',
     summaryPos: SummaryPos.TopRight,
 
@@ -52,7 +52,7 @@ export default {
     recurringEventsEnabled: true,
     headerEnabled: true,
 
-    resourceName: 'Resource Name',
+    resourceName: 'Category',
     taskName: 'Task Name',
     agendaViewHeader: 'Agenda',
     addMorePopoverHeaderFormat: 'MMM D, YYYY dddd',
